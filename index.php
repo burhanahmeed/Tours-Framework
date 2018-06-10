@@ -1,5 +1,10 @@
 <?php
+// require ('/views/index.php');
+require('bootstrap.php');
+require('core/routes.php');
 
+$router->dispatch();
 
-require "data/core/Framework.class.php";
-Framework::run();
+// $view->display('index');
+
+// echo "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
