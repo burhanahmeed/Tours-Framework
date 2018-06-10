@@ -9,4 +9,8 @@ class Loader{
 	public function library($lib){
 		include LIB_PATH."$lib.class.php";
 	}
+
+	public function view($view) {
+		include VIEW_PATH."$view.view.php";
+	}
 }

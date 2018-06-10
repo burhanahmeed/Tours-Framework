@@ -4,7 +4,7 @@
 
 *================================================================
 
-*framework/database/Mysql.class.php
+*data/database/Mysql.class.php
 
 *Database operation class
 

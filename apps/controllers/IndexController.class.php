@@ -3,7 +3,7 @@
 // application/controllers/admin/IndexController.class.php
 
 
-class Welcome extends Controller{
+class IndexController extends BaseController{
 
 
     public function indexAction(){
@@ -14,7 +14,8 @@ class Welcome extends Controller{
 
         // Load View template
 
-        include  CURR_VIEW_PATH . "index.html";
+        // include  CURR_VIEW_PATH . "index.html";
+        $this->loader->view('index');
 
     }
 
