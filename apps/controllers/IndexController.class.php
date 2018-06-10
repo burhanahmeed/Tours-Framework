@@ -15,8 +15,12 @@ class IndexController extends BaseController{
         // Load View template
 
         // include  CURR_VIEW_PATH . "index.html";
-        $this->loader->view('index');
+        $this->view('index');
 
+    }
+
+    public function cekAction($id) {
+    	$this->view('cek');
     }
 
 }

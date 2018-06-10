@@ -17,4 +17,8 @@ class BaseController
 		}
 		exit;
 	}
+
+	public function view($view) {
+		include VIEW_PATH."$view.view.php";
+	}
 }
